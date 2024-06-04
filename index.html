@@ -3,20 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     <title>Food Delievery</title>
+    <link  href="./src/output.css" rel="stylesheet">
 </head>
-<body>
-    
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
+<body  style="background-image: url('bg.jpg') ; background-position: center;">
+
+    <!-- head section -->
+    <header class="w-full  justify-center  bg-transparent bg-[url(./files/bg.jpg)]">
+
+        <!-- nav section -->
+        <nav class="flex items-center justify-between px-5 py-2">
+
+            <!-- left -->
+            <div class=" gap-5 flex items-center " >
+
+                <!-- menu -->
+                <a class="text-white text-3xl justify-center items-center ">&#8801;</a>
+
+                <!-- title -->
+                <h1 class="text-white font-bold uppercase">uber eats</h1>
+                
+            </div>
+
+             <!-- right -->
+             <div class=" gap-8 flex items-center " >
+                <button class="font-bold rounded-lg bg-white px-3 py-2 capitalize text-red-400 hover:bg-red-200 hover:text-red-600  ">login</button>
+                <button class="font-bold rounded-lg bg-white px-3 py-2 capitalize text-red-400 hover:bg-red-200 hover:text-red-600  ">sign up</button>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- main section -->
+    <main class="px-4">
+        <!-- txt -->
+        <div class="mt-[150px]">
+            <h1 class="capitalize text-5xl text-white font-bold">order delievery near you</h1>
+        </div>
+
+        <div>
+            <div class="flex ">
+                <i class="fas fa-band-aid text-black"></i>
+                <label for="#tx"></label>
+                <input id="tx" type="text">
+            </div>
+        </div>
+    </main>
+
+    <!-- main2 -->
+    <main class="px-4 py-5 ">
+        <div class="bg-white shadow-md shadow-black rounded-md w-fit px-3 py-2">
+            <div class="">
+                <img class="h-[100px] rounded-md w-full" src="ic.jpg" alt="logo">
+                <span class="mt-4 capitalize text-xl font-bold ">feed your employees</span>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
